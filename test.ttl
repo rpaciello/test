@@ -385,7 +385,6 @@
 	vcard:country-name "The Netherlands" ;
 	#vcard:locality "locality" ;
 	#vcard:postal-code "postal-code" ;
-	#vcard:region "Region" ;
 	#vcard:street-address "Street Address" ;
     ];
 
