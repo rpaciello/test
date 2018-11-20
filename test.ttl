@@ -471,10 +471,10 @@
     ];
 
     # This property contains the sample period (unit and value).
-    #epos:samplePeriod [ a schema:QuantitativeValue ;
-    #    	schema:unitCode "unit code" ; # http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes
-    #    	schema:value "0"^^xsd:integer ;
-    #];
+    epos:samplePeriod [ a schema:QuantitativeValue ;
+        	schema:unitCode "unit code" ; # http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes
+        	schema:value "0"^^xsd:integer ;
+    ];
 
     # This property contains the resolution in nT.
     epos:resolution "resolution" ;
