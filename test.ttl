@@ -446,7 +446,7 @@
     dct:type "https://orfeus-eu.org/ns/station"^^xsd:anyURI ;
 
     # This property refers to an Organisation responsible for manufacturing the Equipment.
-    #schema:manufacturer <PIC:999518944> ;
+    schema:manufacturer <PIC:999518944> ;
 
     schema:serialNumber "serialNumber" ;
 
