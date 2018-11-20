@@ -436,3 +436,61 @@
   # This property refers to the version of the software.
   schema:softwareVersion "1.1";
 .
+
+<https://www.fdsn.org/networks/NL/station/DBN> a epos:Equipment;
+
+    schema:identifier "https://www.fdsn.org/networks/NL/station/DBN" ;
+    schema:name "Netherlands Seismic and Acoustic Network - Station DBN" ;
+    schema:description "Netherlands Seismic and Acoustic Network - Station DBN" ;
+
+    # This property refers to the URI or category which describe the type of the Equipment.
+    dct:type "https://orfeus-eu.org/ns/station"^^xsd:anyURI ;
+
+    # This property refers to an Organisation responsible for manufacturing the Equipment.
+    schema:manufacturer <PIC:999518944> ;
+
+    #schema:serialNumber "serialNumber" ;
+
+    # This property refers to an Equipment or a Facility in which the described Equipment is included.
+    dct:isPartOf <http://orfeus-eu.org/opencms/stationbook/select-by-network/network/index.html?netid=100017441> ;
+
+    dcat:contactPoint <http://orcid.org/0000-0002-6250-2474/contactPoint> ;
+
+    # This property refers to a geographical location of the Equipment.
+    # The format is: POINT(lon lat elevation). Skip elevation when the value is 0.
+    dct:spatial [ a dct:Location ;
+            locn:geometry "POINT(5.1767 52.1017 3)"^^gsp:wktLiteral ;
+    ] ;
+
+    # This property describes the filter that the instrument uses to produce data.
+    epos:filter "filter";
+
+    # This property contains the full-scale measuring ability (unit and value).
+    epos:dynamicRange [ a schema:QuantitativeValue ;
+        	schema:unitCode "unit code"; # http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes
+        	schema:value "value" ;
+    ];
+
+    # This property contains the sample period (unit and value).
+    epos:samplePeriod [ a schema:QuantitativeValue ;
+        	schema:unitCode "unit code" ; # http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes
+        	schema:value "value" ;
+    ];
+
+    # This property contains the resolution in nT.
+    epos:resolution "resolution" ;
+
+    # This property describes how the instrument is oriented.
+    epos:orientation "90.0/0.0"^^xsd:string ;
+
+    # This property refers to the temporal period of operation of the Equipment.
+    schema:startDate "1997-11-25T00:00:00Z"^^xsd:dateTime ;
+    #schema:endDate "2012-01-01T00:00:00Z"^^xsd:dateTime ;
+
+
+    # This property refers to a related resource (e.g., Dataset, WebService).
+    dct:relation <https://www.epos-eu.org/epos-dcat-ap/Seismology/Dataset/001> ;
+
+    # This property refers to a category of the Equipment. A Equipment may be associated with multiple themes.
+    dcat:theme <epos:SeismicStation> ;
+.
