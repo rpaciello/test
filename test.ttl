@@ -381,12 +381,12 @@
     # dct:isPartOf </https://www.epos-eu.org/epos-dcat-ap/Seismology/Facility/other> ;
 
     # This property contains the physical address of the Facility.
-    #vcard:hasAddress [ a vcard:Address ;
-	#vcard:country-name "The Netherlands" ;
+    vcard:hasAddress [ a vcard:Address ;
+	vcard:country-name "The Netherlands" ;
 	#vcard:locality "locality" ;
 	#vcard:postal-code "postal-code" ;
 	#vcard:street-address "Street Address" ;
-    #];
+    ];
 
     # This property contains contact information that can be used for sending comments about the Facility.
     dcat:contactPoint <http://orcid.org/0000-0002-6250-2474/contactPoint> ;
@@ -436,50 +436,3 @@
   schema:softwareVersion "1.1";
 .
 
-<https://www.fdsn.org/networks/NL/station/DBN> a epos:Equipment;
-
-    schema:identifier "https://www.fdsn.org/networks/NL/station/DBN" ;
-    schema:name "Netherlands Seismic and Acoustic Network - Station DBN" ;
-    schema:description "Netherlands Seismic and Acoustic Network - Station DBN" ;
-
-    # This property refers to the URI or category which describe the type of the Equipment.
-    dct:type "https://orfeus-eu.org/ns/station"^^xsd:anyURI ;
-
-    # This property refers to an Organisation responsible for manufacturing the Equipment.
-    schema:manufacturer <PIC:999518944> ;
-
-    schema:serialNumber "serialNumber" ;
-
-    # This property refers to an Equipment or a Facility in which the described Equipment is included.
-    dct:isPartOf <https://doi.org/10.21944/e970fd34-23b9-3411-b366-e4f72877d2c5> ;
-
-    dcat:contactPoint <http://orcid.org/0000-0002-6250-2474/contactPoint> ;
-
-    # This property refers to a geographical location of the Equipment.
-    # The format is: POINT(lon lat elevation). Skip elevation when the value is 0.
-    dct:spatial [ a dct:Location ;
-            locn:geometry "POINT(5.1767 52.1017 3)"^^gsp:wktLiteral ;
-    ] ;
-
-    # This property describes the filter that the instrument uses to produce data.
-    epos:filter "filter";
-
-    
-
-    # This property contains the resolution in nT.
-    epos:resolution "resolution" ;
-
-    # This property describes how the instrument is oriented.
-    epos:orientation "90.0/0.0"^^xsd:string ;
-
-    # This property refers to the temporal period of operation of the Equipment.
-    schema:startDate "1997-11-25T00:00:00Z"^^xsd:dateTime ;
-    #schema:endDate "2012-01-01T00:00:00Z"^^xsd:dateTime ;
-
-
-    # This property refers to a related resource (e.g., Dataset, WebService).
-    dct:relation <https://www.epos-eu.org/epos-dcat-ap/Seismology/Dataset/001> ;
-
-    # This property refers to a category of the Equipment. A Equipment may be associated with multiple themes.
-    dcat:theme <epos:SeismicStation> ;
-.
