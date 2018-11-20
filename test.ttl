@@ -449,10 +449,10 @@
     # This property refers to an Organisation responsible for manufacturing the Equipment.
     schema:manufacturer <PIC:999518944> ;
 
-    #schema:serialNumber "serialNumber" ;
+    schema:serialNumber "serialNumber" ;
 
     # This property refers to an Equipment or a Facility in which the described Equipment is included.
-    dct:isPartOf <http://orfeus-eu.org/opencms/stationbook/select-by-network/network/index.html?netid=100017441> ;
+    dct:isPartOf <https://doi.org/10.21944/e970fd34-23b9-3411-b366-e4f72877d2c5> ;
 
     dcat:contactPoint <http://orcid.org/0000-0002-6250-2474/contactPoint> ;
 
@@ -468,13 +468,13 @@
     # This property contains the full-scale measuring ability (unit and value).
     epos:dynamicRange [ a schema:QuantitativeValue ;
         	schema:unitCode "unit code"; # http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes
-        	schema:value "value" ;
+        	schema:value "0.0"^^xsd:double ;
     ];
 
     # This property contains the sample period (unit and value).
     epos:samplePeriod [ a schema:QuantitativeValue ;
         	schema:unitCode "unit code" ; # http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes
-        	schema:value "value" ;
+        	schema:value "0"^^xsd:integer ;
     ];
 
     # This property contains the resolution in nT.
