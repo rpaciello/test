@@ -465,10 +465,10 @@
     epos:filter "filter";
 
     # This property contains the full-scale measuring ability (unit and value).
-    #epos:dynamicRange [ a schema:QuantitativeValue ;
-    #    	schema:unitCode "unit code"; # http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes
-    #    	schema:value "0.0"^^xsd:double ;
-    #];
+    epos:dynamicRange [ a schema:QuantitativeValue ;
+        	schema:unitCode "unit code"; # http://wiki.goodrelations-vocabulary.org/Documentation/UN/CEFACT_Common_Codes
+        	schema:value "0.0"^^xsd:double ;
+    ];
 
     # This property contains the sample period (unit and value).
     #epos:samplePeriod [ a schema:QuantitativeValue ;
