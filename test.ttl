@@ -381,12 +381,12 @@
     # dct:isPartOf </https://www.epos-eu.org/epos-dcat-ap/Seismology/Facility/other> ;
 
     # This property contains the physical address of the Facility.
-    vcard:hasAddress [ a vcard:Address ;
-	vcard:country-name "The Netherlands" ;
+    #vcard:hasAddress [ a vcard:Address ;
+	#vcard:country-name "The Netherlands" ;
 	#vcard:locality "locality" ;
 	#vcard:postal-code "postal-code" ;
 	#vcard:street-address "Street Address" ;
-    ];
+    #];
 
     # This property contains contact information that can be used for sending comments about the Facility.
     dcat:contactPoint <http://orcid.org/0000-0002-6250-2474/contactPoint> ;
