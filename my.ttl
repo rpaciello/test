@@ -1,0 +1,5 @@
+<https://www.epos-eu.org/epos-dcat-ap/SatelliteObservations/WebService/WRAPPED_INTERFEROGRAM/Operation> a hydra:Operation;
+hydra:method "GET"^^xsd:string;
+hydra:returns "application/atom+xml";
+hydra:property[ a hydra:IriTemplate;
+  hydra:template "https://catalog.terradue.com/gep-epos/search{?format, pt, start, stop, geom, track}&bbox={minLongitude, minLatitude, maxLongitude, maxLatitude}"^^xsd:string;        
