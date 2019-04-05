@@ -1,0 +1,41 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix epos: <http://www.epos-eu.org/epos/dcat-ap> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+
+<epos:EposDomainThesaurus> a skos:ConceptScheme ;
+	dct:description "A thesaurus with the concepts of the EPOS domain"@en;
+	dct:title "EposDomain"@en;
+	skos:prefLabel "EposDomain"@en;
+	skos:hasTopConcept epos:Event;
+.
+<epos:Event> a skos:Concept ;
+	skos:definition "A generic event of interest for solid Earth sciences. Typically it is characterised 
+	by a location and a time when it occurred"@en;
+	skos:prefLabel "Event"@en;
+	skos:inScheme <epos:EposDomainThesaurus>;
+	skos:narrower <epos:SeismicEvent>, <epos:GeomagneticEvent>, <epos:VolcanicEvent>, <epos:AnthropogenicEpisode> ;
+.
+<epos:SeismicEvent> a skos:Concept ;
+	skos:definition "A seismic event i.e. an Earthquake"@en;
+	skos:prefLabel "Seismic event"@en;
+	skos:inScheme <epos:EposDomainThesaurus>;
+	skos:broader <epos:Event>;
+.
+<epos:GeomagneticEvent> a skos:Concept ;
+	skos:definition "A geomagnetic event"@en;
+	skos:prefLabel "Geomagnetic event"@en;
+	skos:inScheme <epos:EposDomainThesaurus>;
+	skos:broader <epos:Event>;
+.
+<epos:VolcanicEvent> a skos:Concept ;
+	skos:definition "A volcanic event e.g. an eruption"@en;
+	skos:prefLabel "Volcanic eruption"@en;
+	skos:inScheme <epos:EposDomainThesaurus>;
+	skos:broader <epos:Event>;
+.
+<epos:AnthropogenicEpisode> a skos:Concept ;
+	skos:definition "An anthropogenic episode"@en;
+	skos:prefLabel "Anthropogenic episode"@en;
+	skos:inScheme <epos:EposDomainThesaurus>;
+	skos:broader <epos:Event>;
+.
