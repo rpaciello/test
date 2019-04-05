@@ -13,6 +13,7 @@
          rdfs:label "From" ;
          hydra:required "false"^^xsd:boolean ;
      ];
+    
      hydra:mapping[ a hydra:IriTemplateMapping ;
          hydra:variable "stop"^^xsd:string ;
          hydra:property "schema:endDate";
@@ -21,6 +22,7 @@
          rdfs:label "To" ;
          hydra:required "false"^^xsd:boolean ;
      ];
+    
      hydra:mapping[ a hydra:IriTemplateMapping ;
          hydra:variable "minLongitude"^^xsd:string ;
          hydra:property "epos:westernmostLongitude" ;
@@ -30,6 +32,7 @@
          hydra:required "true"^^xsd:boolean ;
          schema:defaultValue "-180.0" ;
      ]; 
+    
      hydra:mapping[ a hydra:IriTemplateMapping ;
          hydra:variable "minLatitude"^^xsd:string ;
          hydra:property "epos:southernmostLatitude" ;
