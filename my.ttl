@@ -73,12 +73,10 @@
 	schema:startDate "1998-01-01T00:00:00Z"^^xsd:dateTime ;
     ];
     dct:spatial [ a dct:Location ;
-	locn:geometry "POLYGON(-180.0 90.0,180.0 90.0,180.0 -90.0,
-	               -180.0 -90.0,-180.0 90.0)"^^gsp:wktLiteral;
+	locn:geometry "POLYGON(-180.0 90.0,180.0 90.0,180.0 -90.0,-180.0 -90.0,-180.0 90.0)"^^gsp:wktLiteral;
     ];
     dcat:theme <epos:Event>;
-    dcat:keyword "seismology", "seismicity", "earthquake", "waveform",
-                 "seismic hazard", "event", "macroseismic";
+    dcat:keyword "seismology","seismicity","earthquake","waveform","seismic hazard","event","macroseismic";
     dcat:contactPoint <https://orcid.org/0000-0002-4460-6325/contactPoint>;
     dct:publisher <PIC:998779222>;
     dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/Seismology/Dataset/EMSC/Distribution>;
