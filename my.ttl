@@ -43,7 +43,6 @@
          hydra:required "true"^^xsd:boolean;
          schema:defaultValue "-90.0" ;
       ];
-
      hydra:mapping[ a hydra:IriTemplateMapping;
          hydra:variable "maxLongitude"^^xsd:string;
          hydra:property "epos:easternmostLongitude";
@@ -53,7 +52,6 @@
          hydra:required "true"^^xsd:boolean;
          schema:defaultValue "180.0" ;
     ];
-    
     hydra:mapping[ a hydra:IriTemplateMapping;
          hydra:variable "maxLatitude"^^xsd:string;
          hydra:property "epos:northernmostLatitude";
