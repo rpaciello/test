@@ -167,6 +167,60 @@
         dcat:distribution <WP11/dataset/047/distribution/DataCatalog>;
 .
 
+#########
+# Dataset
+######### 
+ 
+<hotvolc.opgc.fr/WP11/DDSS-047/dataset/TSASH> a dcat:Dataset;
+    dct:title "Volcanic ash timeseries"^^xsd:string;
+    dct:identifier "hotvolc.opgc.fr/WP11/DDSS-047/dataset/TSASH";    
+    dct:description "Timeseries of the volcanic ash cloud area and the minimum brightness temperature observed";
+    adms:identifier [ a adms:Identifier;
+            adms:schemaAgency "DDSS-ID";
+            skos:notation "WP11-DDSS-047";
+        ];
+    dct:type "http://purl.org/dc/dcmitype/Image"^^xsd:anyURI;
+    dct:accrualPeriodicity "http://purl.org/cld/freq/irregular"^^xsd:anyURI;
+    dct:temporal [ a dct:PeriodOfTime;
+        schema:startDate "2010-05-06T00:00:00Z"^^xsd:dateTime;
+    ];
+    dct:issued "2018-09-05T00:00:00Z"^^xsd:dateTime;
+    dct:modified "2019-03-26T10:39:17Z"^^xsd:dateTime;
+    dct:spatial [ a dct:Location;
+        # geometry of zone: Iceland
+        locn:geometry "POLYGON((-28 57, -1.5 57, -1.5 68.5, -28 68.5, -28 57))"^^gsp:wktLiteral;
+        # geometry of zone: Azores
+        locn:geometry "POLYGON((-34.5 34, -23.5 34, -23.5 43, -34.5 43, -34.5 34))"^^gsp:wktLiteral;
+        # geometry of zone: Italy
+        locn:geometry "POLYGON((10.5 33.150002, 27 33.150002, 27 41.200001, 10.5 41.200001, 10.5 33.150002))"^^gsp:wktLiteral;
+        # geometry of zone: Canary
+        locn:geometry "POLYGON((-22.48 23, -11 23, -11 33, -22.48 33, -22.48 23))"^^gsp:wktLiteral;
+        # geometry of zone: West Indies
+        locn:geometry "POLYGON((-67.199997 7.1999998, -56 7.1999998, -56 21.5, -67.199997 21.5, -67.199997 7.1999998))"^^gsp:wktLiteral;
+        # geometry of zone: Cape Verde
+        locn:geometry "POLYGON((-29.34 9.8500004, -19.34 9.8500004, -19.34 19.85, -29.34 19.85, -29.34 9.8500004))"^^gsp:wktLiteral;
+        # geometry of zone: Rift
+        locn:geometry "POLYGON((38 10.5, 45.5 10.5, 45.5 17.5, 38 17.5, 38 10.5))"^^gsp:wktLiteral;
+        # geometry of zone: Cameroon
+        locn:geometry "POLYGON((3.76 -2.51, 14.16 -2.51, 14.16 9.1400003, 3.76 9.1400003, 3.76 -2.51))"^^gsp:wktLiteral;
+        # geometry of zone: East Africa
+        locn:geometry "POLYGON((24.190001 -8.3100004, 41.75 -8.3100004, 41.75 7.5300002, 24.190001 7.5300002, 24.190001 -8.3100004))"^^gsp:wktLiteral;
+        # geometry of zone: Karthala
+        locn:geometry "POLYGON((38.369999 -16.91, 48.369999 -16.91, 48.369999 -6.9099998, 38.369999 -6.9099998, 38.369999 -16.91))"^^gsp:wktLiteral;
+        # geometry of zone: Reunion
+        locn:geometry "POLYGON((50.709999 -26.309999, 60.709999 -26.309999, 60.709999 -16.309999, 50.709999 -16.309999, 50.709999 -26.309999))"^^gsp:wktLiteral;
+        # geometry of zone: France
+        locn:geometry "POLYGON((-5 42, 8.25 42, 8.25 51.5, -5 51.5, -5 42))"^^gsp:wktLiteral;
+    ];
+    dcat:theme <epos:Atmosphericmonitoring>;
+    dcat:keyword "volcanic ash", "brightness temperature difference difference", "area", "timeserie", "atmospheric monitoring";
+    dcat:contactPoint <http://orcid.org/0000-0001-8720-7300/contactPoint>;
+    dct:publisher <http://isni.org/isni/0000000109416043>;
+    schema:license "https://creativecommons.org/licenses/by-nc/4.0/"^^xsd:anyURI;
+    dcat:distribution <WP11/dataset/047/distribution/DataCatalog>;
+.
+
+
 <WP11/dataset/047/distribution/DataDownload> a dcat:Distribution;
         dct:identifier "WP11/dataset/047/distribution/DataDownload";
         dct:description "The way to download the HOTVOLC products";
@@ -182,7 +236,7 @@
 <WP11/dataset/047/distribution/DataCatalog> a dcat:Distribution;
         dct:identifier "WP11/dataset/047/distribution/DataCatalog";
         dct:description "The way to query HOTVOLC data catalogue ";
-        dct:title "HOTVOLC product: volcanic ash OLD";
+        dct:title "HOTVOLC product: volcanic ash OLD BIS";
         dct:issued "2018-09-05T00:00:00Z"^^xsd:dateTime;
         dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
         dcat:accessURL <hotvolc.opgc.fr/WP11/webservice/DDSS-047/operation/data-catalog>;
