@@ -43,19 +43,25 @@ adms:identifier [ a adms:Identifier;
     dcat:keyword "chemical data set", "melt inclusion", "volatile elements", "major elements", "trace elements", "groundmass", "host minerals";
     dcat:contactPoint <http://orcid.org/0000-0002-8485-0154/contactPoint>;
     dct:publisher <http://isni.org/isni/0000000109416043>;
-    dcat:distribution <gazvolc/dataset/036/distribution/ws>;
+    #dcat:distribution <gazvolc/dataset/036/distribution/ws>;
+    dcat:distribution <opgc.fr/vobs/WP11/DDSS-036/GAZVOLC/Distribution>;
 .
 
-<gazvolc/dataset/036/distribution/ws> a dcat:Distribution;
-        dct:identifier "gazvolc/dataset/036/distribution/ws";
-        dct:title "OPGC-VO distribution of GAZVOLC dataset BIS";
-        dct:description "The way to download the gazvolc product";
-        dct:issued "2016-06-12"^^xsd:date;
-        dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
-        dcat:accessURL <opgc.fr/vobs/gazvolc/WP11/DDSS-036/data-download>;
-        dct:conformsTo <opgc.fr/vobs/gazvolc/WP11/DDSS-036>;
-        dct:format "http://publications.europa.eu/resource/authority/file-type/JSON"^^xsd:anyURI;
-        dct:license "http://creativecommons.org/licenses/by-nc/4.0/"^^xsd:anyURI;
+
+#########
+# Distributions
+######### 
+
+<opgc.fr/vobs/WP11/DDSS-036/GAZVOLC/Distribution> a dcat:Distribution;
+    dct:identifier "opgc.fr/vobs/WP11/DDSS-036/GAZVOLC/Distribution";
+    dct:title "The way to download dataset from gazvolc";
+    dct:description "The way to download the gazvolc product: June 2014";
+    dct:issued "2016-06-12"^^xsd:date;
+    dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
+    dcat:accessURL <opgc.fr/vobs/gazvolc/WP11/DDSS-036/data-download>;
+    dct:conformsTo <opgc.fr/vobs/gazvolc/WP11/DDSS-036>;
+    dct:format "http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE"^^xsd:anyURI;
+    dct:license "http://creativecommons.org/licenses/by-nc/4.0/"^^xsd:anyURI;
 .
 
 
