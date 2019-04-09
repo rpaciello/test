@@ -9,8 +9,8 @@
 	skos:hasTopConcept epos:Event;
 .
 <epos:Event> a skos:Concept ;
-	skos:definition "A generic event of interest for solid Earth sciences.
-                         Typically it is characterised by a location and a time when it occurred"@en;
+	skos:definition "A generic event of interest for solid Earth sciences. Typically it is characterised by a location and a time when it occurred"@en;
+	
 	skos:prefLabel "Event"@en;
 	skos:inScheme <epos:EposDomainThesaurus>;
 	skos:narrower <epos:SeismicEvent>, <epos:GeomagneticEvent>, 
