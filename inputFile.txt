@@ -32,6 +32,7 @@ https://github.com/epos-eu/EPOS-DCAT-AP/raw/EPOS-DCAT-AP-shapes/examples/WP09/EP
 https://github.com/epos-eu/EPOS-DCAT-AP/raw/EPOS-DCAT-AP-shapes/examples/WP09/EPOS-DCAT-AP_WP09_KOERI_RADON.ttl
 https://github.com/epos-eu/EPOS-DCAT-AP/raw/EPOS-DCAT-AP-shapes/examples/WP09/EPOS-DCAT-AP_WP09_KOERI_VPVS.ttl
 https://raw.githubusercontent.com/epos-eu/EPOS-DCAT-AP/EPOS-DCAT-AP-shapes/examples/WP09/EPOS-DCAT-AP_WP09_TABOO_HISTORICALEQ.ttl
+https://raw.githubusercontent.com/epos-eu/EPOS-DCAT-AP/EPOS-DCAT-AP-shapes/examples/WP09/EPOS-DCAT-AP_WP09_IRPINIA_HISTORICALEQ.ttl
 https://raw.githubusercontent.com/epos-eu/EPOS-DCAT-AP/EPOS-DCAT-AP-shapes/examples/WP10/EPOS_WP10.ttl
 https://github.com/epos-eu/EPOS-DCAT-AP/raw/EPOS-DCAT-AP-shapes/examples/WP11/OPGC-WP11-DDSS-036_GAZVOLC_new.ttl
 https://github.com/epos-eu/EPOS-DCAT-AP/raw/EPOS-DCAT-AP-shapes/examples/WP11/OPGC-WP11-DDSS-047_HOTVOLC_new.ttl
