@@ -2507,9 +2507,7 @@
 	<anthropogenic_hazards/distribution/episodes> a dcat:Distribution;
 		dct:identifier "anthropogenic_hazards/distribution/episodes";
 		dct:title "List of episodes";
-		#dct:description "The IS-EPOS Platform integrates research infrastructure of EPOS TCS AH (https://tcs.ah-epos.eu/). It provides access to Episodes, which are collections of time-correlated geophysical, technological and other relevant geodata, relating comprehensively anthropogenic seismicity to its industrial cause." ; 
-		dct:description "<html><body><h2>The IS-EPOS Platform integrates research infrastructure of EPOS TCS AH</h2><ul><li>Coffee</li><li>Tea</li><li>Milk</li></ul></body></html>";
-
+		dct:description "The IS-EPOS Platform integrates research infrastructure of EPOS TCS AH (https://tcs.ah-epos.eu/). It provides access to Episodes, which are collections of time-correlated geophysical, technological and other relevant geodata, relating comprehensively anthropogenic seismicity to its industrial cause." ; 
 		dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI;
 		dct:conformsTo <anthropogenic_hazards/webservice/is-epos_platform> ;
 		dcat:accessURL <anthropogenic_hazards/webservice/is-epos_platform/episodes>;
