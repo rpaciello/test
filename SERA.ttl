@@ -160,6 +160,7 @@
                 rdfs:range "xsd:string";
                 rdfs:label "Download metadata of project: Pseudodynamic Tests on 4-storey Nonductile Frames with RC Infilling of the Bay. ";
                 http:paramValue "33462";
+		schema:defaultValue "33462";
                 hydra:required "true"^^xsd:boolean;
 				];
 		] ;
@@ -210,6 +211,7 @@
                 rdfs:range "xsd:string";
                 rdfs:label "Download metadata of specimen: KE_Retrofitted Building 1. ";
                 http:paramValue "1458463";
+		schema:defaultValue "1458463";
                 hydra:required "true"^^xsd:boolean;
                 ];
         ] ;
@@ -260,6 +262,7 @@
                 rdfs:range "xsd:string";
                 rdfs:label "Download metadata of specimen: KE_Retrofitted Building 2. ";
                 http:paramValue "1458464";
+		schema:defaultValue "1458464";
                 hydra:required "true"^^xsd:boolean;
                 ];
         ] ;
@@ -310,6 +313,7 @@
                 rdfs:range "xsd:string";
                 rdfs:label "Download metadata of specimen: KE_Retrofitted Building 3. ";
                 http:paramValue "1458465";
+		schema:defaultValue "1458465";
                 hydra:required "true"^^xsd:boolean;
                 ];
         ] ;
@@ -359,6 +363,7 @@
                 rdfs:range "xsd:string";
                 rdfs:label "Download metadata of project: Seismic Performance Assessment and Rehabilitation of Existing Buildings. ";
                 http:paramValue "33465";
+		schema:defaultValue "33465";
                 hydra:required "true"^^xsd:boolean;
 				];
 		] ;
@@ -409,6 +414,7 @@
                 rdfs:range "xsd:string";
                 rdfs:label "Download metadata of specimen: SR_Q_RC. ";
                 http:paramValue "1459293";
+		schema:defaultValue "1459293";
                 hydra:required "true"^^xsd:boolean;
                 ];
         ] ;
@@ -459,6 +465,7 @@
                 rdfs:range "xsd:string";
                 rdfs:label "Download metadata of specimen: SR_Q_RCD. ";
                 http:paramValue "1459294";
+		schema:defaultValue "1459294";
                 hydra:required "true"^^xsd:boolean;
                 ];
         ] ;
@@ -509,6 +516,7 @@
                 rdfs:range "xsd:string";
                 rdfs:label "Download metadata of specimen: SR_Q_RCL1. ";
                 http:paramValue "1459295";
+		schema:defaultValue "1459295";
                 hydra:required "true"^^xsd:boolean;
                 ];
         ] ;
@@ -559,6 +567,7 @@
                 rdfs:range "xsd:string";
                 rdfs:label "Download metadata of specimen: SR_Q_RCL1pd. ";
                 http:paramValue "1459296";
+		schema:defaultValue "1459296";
                 hydra:required "true"^^xsd:boolean;
                 ];
         ] ;
@@ -609,6 +618,7 @@
                 rdfs:range "xsd:string";
                 rdfs:label "Download metadata of specimen: SR_Q_RCL2. ";
                 http:paramValue "1459297";
+		schema:defaultValue "1459297";
                 hydra:required "true"^^xsd:boolean;
                 ];
         ] ;
@@ -659,6 +669,7 @@
                 rdfs:range "xsd:string";
                 rdfs:label "Download metadata of specimen: SR_Q_RCL2pd. ";
                 http:paramValue "1459298";
+		schema:defaultValue "1459298";
                 hydra:required "true"^^xsd:boolean;
                 ];
         ] ;
@@ -709,6 +720,7 @@
                 rdfs:range "xsd:string";
                 rdfs:label "Download metadata of specimen: SR_Q_RCM. ";
                 http:paramValue "1459299";
+		schema:defaultValue "1459299";
                 hydra:required "true"^^xsd:boolean;
                 ];
         ] ;
@@ -759,6 +771,7 @@
                 rdfs:range "xsd:string";
                 rdfs:label "Download metadata of specimen: SR_Q_RCpd. ";
                 http:paramValue "1459300";
+		schema:defaultValue "1459300";
                 hydra:required "true"^^xsd:boolean;
                 ];
         ] ;
