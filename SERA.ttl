@@ -315,7 +315,7 @@
         ] ; 
 .
     
-<epos:SeismicPerformanceAssessmentandRehabilitationofExistingBuildings> a skos:Concept;
+<epos:SeismicPerformanceAssessment> a skos:Concept;
     	skos:inScheme <epos:SeismicEngineering>;
     	skos:prefLabel "Seismic Performance Assessment and Rehabilitation of Existing Buildings";
 . 
@@ -332,7 +332,7 @@
     	dct:temporal [ a dct:PeriodOfTime; 
     		schema:startDate "2001-01-01T00:00:00Z"^^xsd:date;
     	];
-    	dcat:theme <epos:SeismicPerformanceAssessmentandRehabilitationofExistingBuildings>;
+    	dcat:theme <epos:SeismicPerformanceAssessment>;
     	dcat:keyword "SPEAR", "EU";
         dcat:contactPoint <http://orcid.org/0000-0002-8616-334X/scientificContact> ;
     	dct:publisher <PIC:999894528>;
@@ -366,7 +366,7 @@
     
 <epos:SR_Q_RC> a skos:Concept;
         skos:inScheme <epos:SeismicEngineering>;
-        skos:broader <epos:SeismicPerformanceAssessmentandRehabilitationofExistingBuildings>;
+        skos:broader <epos:SeismicPerformanceAssessment>;
         skos:prefLabel "SR_Q_RC";
 . 
             
@@ -416,7 +416,7 @@
     
 <epos:SR_Q_RCD> a skos:Concept;
         skos:inScheme <epos:SeismicEngineering>;
-        skos:broader <epos:SeismicPerformanceAssessmentandRehabilitationofExistingBuildings>;
+        skos:broader <epos:SeismicPerformanceAssessment>;
         skos:prefLabel "SR_Q_RCD";
 . 
             
@@ -466,7 +466,7 @@
     
 <epos:SR_Q_RCL1> a skos:Concept;
         skos:inScheme <epos:SeismicEngineering>;
-        skos:broader <epos:SeismicPerformanceAssessmentandRehabilitationofExistingBuildings>;
+        skos:broader <epos:SeismicPerformanceAssessment>;
         skos:prefLabel "SR_Q_RCL1";
 . 
             
@@ -516,7 +516,7 @@
     
 <epos:SR_Q_RCL1pd> a skos:Concept;
         skos:inScheme <epos:SeismicEngineering>;
-        skos:broader <epos:SeismicPerformanceAssessmentandRehabilitationofExistingBuildings>;
+        skos:broader <epos:SeismicPerformanceAssessment>;
         skos:prefLabel "SR_Q_RCL1pd";
 . 
             
@@ -566,7 +566,7 @@
     
 <epos:SR_Q_RCL2> a skos:Concept;
         skos:inScheme <epos:SeismicEngineering>;
-        skos:broader <epos:SeismicPerformanceAssessmentandRehabilitationofExistingBuildings>;
+        skos:broader <epos:SeismicPerformanceAssessment>;
         skos:prefLabel "SR_Q_RCL2";
 . 
             
@@ -616,7 +616,7 @@
     
 <epos:SR_Q_RCL2pd> a skos:Concept;
         skos:inScheme <epos:SeismicEngineering>;
-        skos:broader <epos:SeismicPerformanceAssessmentandRehabilitationofExistingBuildings>;
+        skos:broader <epos:SeismicPerformanceAssessment>;
         skos:prefLabel "SR_Q_RCL2pd";
 . 
             
@@ -666,7 +666,7 @@
     
 <epos:SR_Q_RCM> a skos:Concept;
         skos:inScheme <epos:SeismicEngineering>;
-        skos:broader <epos:SeismicPerformanceAssessmentandRehabilitationofExistingBuildings>;
+        skos:broader <epos:SeismicPerformanceAssessment>;
         skos:prefLabel "SR_Q_RCM";
 . 
             
@@ -716,7 +716,7 @@
     
 <epos:SR_Q_RCpd> a skos:Concept;
         skos:inScheme <epos:SeismicEngineering>;
-        skos:broader <epos:SeismicPerformanceAssessmentandRehabilitationofExistingBuildings>;
+        skos:broader <epos:SeismicPerformanceAssessment>;
         skos:prefLabel "SR_Q_RCpd";
 . 
             
@@ -790,7 +790,7 @@
 	dcat:theme <epos:KE_RetrofittedBuilding1>;
 	dcat:theme <epos:KE_RetrofittedBuilding2>;
 	dcat:theme <epos:KE_RetrofittedBuilding3>;
-	dcat:theme <epos:SeismicPerformanceAssessmentandRehabilitationofExistingBuildings>;
+	dcat:theme <epos:SeismicPerformanceAssessment>;
 	dcat:theme <epos:SR_Q_RC>;
 	dcat:theme <epos:SR_Q_RCD>;
 	dcat:theme <epos:SR_Q_RCL1>;
