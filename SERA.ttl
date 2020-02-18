@@ -116,3 +116,7 @@
 		dct:title "Seismic Engineering";
 		dct:description "It contains the projects of Seismic Engineering (SERIES).";
 .
+<epos:PseudodynamicTest> a skos:Concept;
+    	skos:inScheme <epos:SeismicEngineering>;
+    	skos:prefLabel "Pseudodynamic Tests on 4-storey Nonductile Frames with RC Infilling of the Bay";
+.
