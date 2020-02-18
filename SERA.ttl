@@ -112,3 +112,7 @@
         schema:availableLanguage "en" ;
         schema:contactType "scientificContact";
 .
+<epos:SeismicEngineering> a skos:ConceptScheme;
+		dct:title "Seismic Engineering";
+		dct:description "It contains the projects of Seismic Engineering (SERIES).";
+.
