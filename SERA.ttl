@@ -61,7 +61,7 @@
 	    ];
 	    schema:email "fardis@upatras.gr" ;
 	    schema:telephone "+30 2610996508" ;
-	    schema:url  "http://www.civil.upatras.gr/el/Proswpiko/MelhDEP/?PageNo=3&EntityID=89d1a5b5-5531-45df-9cbd-9e1d53846d7d"^^xsd:anyURI ;
+	    #schema:url  "http://www.civil.upatras.gr/el/Proswpiko/MelhDEP/?PageNo=3&EntityID=89d1a5b5-5531-45df-9cbd-9e1d53846d7d"^^xsd:anyURI ;
 	    schema:qualifications "Principal Investigator" ;
 	    schema:affiliation <PIC:999894528> ;
 	    schema:contactPoint <http://orcid.org/0000-0002-1302-2175/legalContact> ;
@@ -83,7 +83,7 @@
 	    ];
 	    schema:email "sbousias@upatras.gr" ;
 	    schema:telephone "+30 2610996588" ;
-	    schema:url  "http://www.civil.upatras.gr/en/Proswpiko/MelhDEP/entry/BousiasStathis/?PageNo=0"^^xsd:anyURI ;
+	    #schema:url  "http://www.civil.upatras.gr/en/Proswpiko/MelhDEP/entry/BousiasStathis/?PageNo=0"^^xsd:anyURI ;
 	    schema:qualifications "Principal Investigator" ;
 	    schema:affiliation <PIC:999894528> ;
 	    schema:contactPoint <http://orcid.org/0000-0002-8616-334X/legalContact> ;
@@ -108,7 +108,7 @@
         	schema:addressCountry "Greece" ;
 	    ];
     	schema:logo "https://www.upatras.gr/sites/www.upatras.gr/files/upatras_logo.jpg"^^xsd:anyURI ;
-    	schema:url "http:www.series.upatras.gr"^^xsd:anyURI;
+    	#schema:url "http:www.series.upatras.gr"^^xsd:anyURI;
     	schema:email "rectorate@upatras.gr" ;
     	schema:telephone "+30 2610996683" ;
     	schema:contactPoint <http://orcid.org/0000-0002-8616-334X/legalContact> ;
