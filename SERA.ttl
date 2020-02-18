@@ -317,7 +317,7 @@
 
 <epos:SeismicPerformanceAssessment> a skos:Concept;
     	skos:inScheme <epos:SeismicEngineering>;
-    	skos:prefLabel "Seismic Performance Assessment and Rehabilitation of Existing Buildings";
+    	skos:prefLabel "Seismic Performance Assessment";
 .
 
 <SERIES/dataset/project/33465> a dcat:Dataset;
