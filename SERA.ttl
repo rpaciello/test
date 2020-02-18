@@ -154,7 +154,7 @@
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/xml";
     hydra:property[ a hydra:IriTemplate;
-        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/project_reports?project_id={?project_id}"^^xsd:string;
+        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/project_reports{?project_id}"^^xsd:string;
             hydra:mapping[ a hydra:IriTemplateMapping;
                 hydra:variable "project_id"^^xsd:string;
                 rdfs:range "xsd:string";
@@ -205,7 +205,7 @@
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/xml";
     hydra:property[ a hydra:IriTemplate;
-        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports?specimen_id={?specimen_id}"^^xsd:string;
+        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports{?specimen_id}"^^xsd:string;
             hydra:mapping[ a hydra:IriTemplateMapping;
                 hydra:variable "specimen_id"^^xsd:string;
                 rdfs:range "xsd:string";
@@ -256,7 +256,7 @@
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/xml";
     hydra:property[ a hydra:IriTemplate;
-        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports?specimen_id={?specimen_id}"^^xsd:string;
+        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports{?specimen_id}"^^xsd:string;
             hydra:mapping[ a hydra:IriTemplateMapping;
                 hydra:variable "specimen_id"^^xsd:string;
                 rdfs:range "xsd:string";
@@ -307,7 +307,7 @@
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/xml";
     hydra:property[ a hydra:IriTemplate;
-        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports?specimen_id={?specimen_id}"^^xsd:string;
+        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports{?specimen_id}"^^xsd:string;
             hydra:mapping[ a hydra:IriTemplateMapping;
                 hydra:variable "specimen_id"^^xsd:string;
                 rdfs:range "xsd:string";
@@ -357,7 +357,7 @@
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/xml";
     hydra:property[ a hydra:IriTemplate;
-        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/project_reports?project_id={?project_id}"^^xsd:string;
+        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/project_reports{?project_id}"^^xsd:string;
             hydra:mapping[ a hydra:IriTemplateMapping;
                 hydra:variable "project_id"^^xsd:string;
                 rdfs:range "xsd:string";
@@ -408,7 +408,7 @@
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/xml";
     hydra:property[ a hydra:IriTemplate;
-        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports?specimen_id={?specimen_id}"^^xsd:string;
+        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports{?specimen_id}"^^xsd:string;
             hydra:mapping[ a hydra:IriTemplateMapping;
                 hydra:variable "specimen_id"^^xsd:string;
                 rdfs:range "xsd:string";
@@ -459,7 +459,7 @@
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/xml";
     hydra:property[ a hydra:IriTemplate;
-        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports?specimen_id={?specimen_id}"^^xsd:string;
+        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports{?specimen_id}"^^xsd:string;
             hydra:mapping[ a hydra:IriTemplateMapping;
                 hydra:variable "specimen_id"^^xsd:string;
                 rdfs:range "xsd:string";
@@ -510,7 +510,7 @@
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/xml";
     hydra:property[ a hydra:IriTemplate;
-        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports?specimen_id={?specimen_id}"^^xsd:string;
+        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports{?specimen_id}"^^xsd:string;
             hydra:mapping[ a hydra:IriTemplateMapping;
                 hydra:variable "specimen_id"^^xsd:string;
                 rdfs:range "xsd:string";
@@ -561,7 +561,7 @@
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/xml";
     hydra:property[ a hydra:IriTemplate;
-        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports?specimen_id={?specimen_id}"^^xsd:string;
+        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports{?specimen_id}"^^xsd:string;
             hydra:mapping[ a hydra:IriTemplateMapping;
                 hydra:variable "specimen_id"^^xsd:string;
                 rdfs:range "xsd:string";
@@ -612,7 +612,7 @@
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/xml";
     hydra:property[ a hydra:IriTemplate;
-        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports?specimen_id={?specimen_id}"^^xsd:string;
+        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports{?specimen_id}"^^xsd:string;
             hydra:mapping[ a hydra:IriTemplateMapping;
                 hydra:variable "specimen_id"^^xsd:string;
                 rdfs:range "xsd:string";
@@ -663,7 +663,7 @@
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/xml";
     hydra:property[ a hydra:IriTemplate;
-        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports?specimen_id={?specimen_id}"^^xsd:string;
+        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports{?specimen_id}"^^xsd:string;
             hydra:mapping[ a hydra:IriTemplateMapping;
                 hydra:variable "specimen_id"^^xsd:string;
                 rdfs:range "xsd:string";
@@ -714,7 +714,7 @@
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/xml";
     hydra:property[ a hydra:IriTemplate;
-        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports?specimen_id={?specimen_id}"^^xsd:string;
+        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports{?specimen_id}"^^xsd:string;
             hydra:mapping[ a hydra:IriTemplateMapping;
                 hydra:variable "specimen_id"^^xsd:string;
                 rdfs:range "xsd:string";
@@ -765,7 +765,7 @@
     hydra:method "GET"^^xsd:string;
     hydra:returns "application/xml";
     hydra:property[ a hydra:IriTemplate;
-        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports?specimen_id={?specimen_id}"^^xsd:string;
+        hydra:template "http://150.140.186.214:53361/TCS_Metadata_Retrieval_WS/WebService.asmx/specimen_reports{?specimen_id}"^^xsd:string;
             hydra:mapping[ a hydra:IriTemplateMapping;
                 hydra:variable "specimen_id"^^xsd:string;
                 rdfs:range "xsd:string";
