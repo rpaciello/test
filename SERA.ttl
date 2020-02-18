@@ -118,5 +118,5 @@
 .
 <epos:PseudodynamicTest> a skos:Concept;
     	skos:inScheme <epos:SeismicEngineering>;
-    	skos:prefLabel "Pseudodynamic Tests on 4-storey Nonductile Frames with RC Infilling of the Bay";
+    	skos:prefLabel "Pseudodynamic Tests on 4-storey";
 .
