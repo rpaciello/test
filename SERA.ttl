@@ -37,6 +37,51 @@
 	schema:contactPoint <http://orcid.org/0000-0002-8616-334X/financialContact> ;
 .
 
+<http://orcid.org/0000-0002-1302-2175> a schema:Person;
+    	schema:identifier [ a schema:PropertyValue;
+    		schema:propertyID "orcid";
+    		schema:value "0000-0002-1302-2175";
+    	];
+    	schema:familyName "Fardis";
+    	schema:givenName "Michael";
+    	schema:address [ a schema:PostalAddress ;
+	 	    schema:streetAddress "Department of Civil Engineering, University of Patras" ;
+		    schema:addressLocality "Rio Achaia" ;
+		    schema:postalCode "26500" ;
+		    schema:addressCountry "Greece" ;
+	    ];
+	    schema:email "fardis@upatras.gr" ;
+	    schema:telephone "+30 2610996508" ;
+	    schema:url  "http://www.civil.upatras.gr/el/Proswpiko/MelhDEP/?PageNo=3&EntityID=89d1a5b5-5531-45df-9cbd-9e1d53846d7d"^^xsd:anyURI ;
+	    schema:qualifications "Principal Investigator" ;
+	    schema:affiliation <PIC:999894528> ;
+	    schema:contactPoint <http://orcid.org/0000-0002-1302-2175/legalContact> ;
+	    schema:contactPoint <http://orcid.org/0000-0002-1302-2175/scientificContact> ;
+	    schema:contactPoint <http://orcid.org/0000-0002-1302-2175/financialContact> ;
+.
+<http://orcid.org/0000-0002-8616-334X> a schema:Person;
+    	schema:identifier [ a schema:PropertyValue;
+    		schema:propertyID "orcid";
+    		schema:value "0000-0002-8616-334X";
+    	];
+    	schema:familyName "Bousias";
+    	schema:givenName "Stathis";
+    	schema:address [ a schema:PostalAddress ;
+	 	    schema:streetAddress "Department of Civil Engineering, University of Patras" ;
+		    schema:addressLocality "Rio Achaia" ;
+		    schema:postalCode "26500" ;
+		    schema:addressCountry "Greece" ;
+	    ];
+	    schema:email "sbousias@upatras.gr" ;
+	    schema:telephone "+30 2610996588" ;
+	    schema:url  "http://www.civil.upatras.gr/en/Proswpiko/MelhDEP/entry/BousiasStathis/?PageNo=0"^^xsd:anyURI ;
+	    schema:qualifications "Principal Investigator" ;
+	    schema:affiliation <PIC:999894528> ;
+	    schema:contactPoint <http://orcid.org/0000-0002-8616-334X/legalContact> ;
+	    schema:contactPoint <http://orcid.org/0000-0002-8616-334X/scientificContact> ;
+	    schema:contactPoint <http://orcid.org/0000-0002-8616-334X/financialContact> ;
+.
+
 <http://orcid.org/0000-0002-1302-2175/legalContact> a schema:ContactPoint;
         schema:email "fardis@upatras.gr";
 	    schema:availableLanguage "en" ;
