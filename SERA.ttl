@@ -98,7 +98,7 @@
 <PIC:999894528> a schema:Organization;
     	schema:identifier [ a schema:PropertyValue;
     		schema:propertyID "PIC";
-    		schema:value 999894528;
+    		schema:value "999894528";
     	];
     	schema:legalName "University of Patras";
     	schema:address [ a schema:PostalAddress ;
