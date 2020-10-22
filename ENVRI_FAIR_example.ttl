@@ -277,19 +277,19 @@
   hydra:returns "application/vnd.fdsn.mseed" ;
 
   hydra:property[ a hydra:IriTemplate ;
-        	hydra:template "http://www.orfeus-eu.org/fdsnws/dataselect/1/query/{?starttime,endtime,network,quality}"^^xsd:string ;
+        	hydra:template "http://www.orfeus-eu.org/fdsnws/dataselect/1/query/{?starttime,endtime,network,station}"^^xsd:string ;
         		hydra:mapping[ a hydra:IriTemplateMapping ;
                   # This property contains the name of the parameter as required by web service specifications
                   hydra:variable "starttime"^^xsd:string ;
 
-		              hydra:property "schema:startDate";
+		  hydra:property "schema:startDate";
                   schema:valuePattern "YYYY-MM-DDThh:mm:ss";
 
                   # This property contains a short string used to describe the meaning of the parameter to the GUI user.
-		              rdfs:label "Start of the timespan" ;
+		  rdfs:label "Start of the timespan" ;
 
                   # This property contains true if the property is required, false otherwise.
-               		hydra:required "true"^^xsd:boolean ;
+                  hydra:required "true"^^xsd:boolean ;
 
                   # This property contains the type of parameter.
 		              # The possible values for this property are: "xsd:string" "xsd:boolean" "xsd:date" " xsd:dateTime" "xsd:decimal" "xsd:double" "xsd:float" "xsd:int" "xsd:integer" "xsd:long";
@@ -308,18 +308,31 @@
                   # It could be repeated as many times as needed.
                   # http:paramValue "possible value" ;
            	];
-              		hydra:mapping[ a hydra:IriTemplateMapping ;
-               			hydra:variable "endtime"^^xsd:string ;
+              	hydra:mapping[ a hydra:IriTemplateMapping ;
+               		hydra:variable "endtime"^^xsd:string ;
+			hydra:property "schema:endDate";
+                        schema:valuePattern "YYYY-MM-DDThh:mm:ss";
+		        rdfs:label "End of the timespan" ;
+               		hydra:required "true"^^xsd:boolean ;
+                    	rdfs:range "xsd:dateTime" ;
+                    	schema:defaultValue "2012-02-01T00:00:00" ;
 
-				            hydra:property "schema:endDate";
-                    schema:valuePattern "YYYY-MM-DDThh:mm:ss";
-
-				            rdfs:label "End of the timespan" ;
-               			hydra:required "true"^^xsd:boolean ;
-                    rdfs:range "xsd:dateTime" ;
-                    schema:defaultValue "2012-02-01T00:00:00" ;
-
-              		];
+              	];
+		
+      		hydra:mapping[ a hydra:IriTemplateMapping ;
+		      hydra:variable "network"^^xsd:string ;
+		      rdfs:label "Network code" ;
+		      hydra:required true ;
+		      schema:defaultValue "NL" ;
+		      rdfs:range "xsd:string"
+		];
+      		hydra:mapping[ a hydra:IriTemplateMapping ;
+		      hydra:variable "station"^^xsd:string ;
+		      rdfs:label "Station code" ;
+		      schema:defaultValue "HGN" ;
+		      hydra:required true ;
+		      rdfs:range "xsd:string"
+    		];
 
        	];
 .
