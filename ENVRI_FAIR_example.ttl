@@ -192,19 +192,19 @@
 
 <https://www.epos-eu.org/epos-dcat-ap/Seismology/Dataset/001/Distribution/001> a dcat:Distribution ;
         dct:identifier "https://www.epos-eu.org/epos-dcat-ap/Seismology/Dataset/001/Distribution/001" ;
-        dct:title "Title of Seismic Waveform Distribution" ;
-	      dct:description "Description of Seismic Waveform Distribution" ;
-	      dct:issued "2017-01-01"^^xsd:date ;
+        dct:title "Title of Seismic Waveform TEST Service" ;
+	dct:description "Description of Seismic Waveform TEST Service" ;
+	dct:issued "2017-01-01"^^xsd:date ;
         dct:modified "2017-01-01"^^xsd:date ;
 
         # This property refers to the type of the Distribution. The possible types are
         # (http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE
         # OR
         # http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE)
-	      dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI ;
+	dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI ;
 
         # If the type of Distribution is WEB SERVICE, this property refers to the Web Service that gives access to a Distribution of the Dataset. Otherwise, this property is optional.
-	      dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/Seismology/WebService/001> ;
+	dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/Seismology/WebService/001> ;
 
         # This property contains a URL that gives access to a Distribution of the Dataset. The resource at the access URL may contain # information about how to get the Dataset.
         # If the type of Distribution is WEB SERVICE, this property refers to the Operation of the Web Service to which the Distribution conforms.
@@ -227,19 +227,19 @@
 <https://www.epos-eu.org/epos-dcat-ap/Seismology/WebService/001> a epos:WebService ;
   schema:identifier "https://www.epos-eu.org/epos-dcat-ap/Seismology/WebService/001" ;
   schema:description "FDSN Standard webservice at ODC to download waveform data" ;
-	schema:name "FDSN Dataselect - ORFEUS Data Center (ODC)" ;
+  schema:name "FDSN Dataselect - ORFEUS Data Center (ODC)" ;
 
   # This property contains contact information that can be used for sending comments about the Web Service.
   dcat:contactPoint <http://orcid.org/0000-0002-6250-0000/contactPoint> ;
 
   schema:datePublished "2016-01-01T00:00:00Z"^^xsd:dateTime ;
-	schema:dateModified "2016-01-01T00:00:00Z"^^xsd:dateTime ;
+  schema:dateModified "2016-01-01T00:00:00Z"^^xsd:dateTime ;
 
   # This property refers to an Organisation responsible for making the Web Service available.
-	schema:provider <PIC:000518944> ;
+  schema:provider <PIC:000518944> ;
 
   # This property refers to the API definitions (e.g., WSDL, WADL)
-	hydra:entrypoint "http://www.orfeus-eu.org/fdsnws/dataselect/1/application.wadl"^^xsd:anyURI ;
+  hydra:entrypoint "http://www.orfeus-eu.org/fdsnws/dataselect/1/application.wadl"^^xsd:anyURI ;
 
   #This property refers to a category of the Web Service. A Web Service may be associated with multiple themes.
   dcat:theme  <epos:SeismicWaveform> ;
@@ -315,7 +315,7 @@
 		        rdfs:label "End of the timespan" ;
                		hydra:required "true"^^xsd:boolean ;
                     	rdfs:range "xsd:dateTime" ;
-                    	schema:defaultValue "2012-02-01T00:00:00" ;
+                    	schema:defaultValue "2012-01-01T00:10:00" ;
 
               	];
 		
