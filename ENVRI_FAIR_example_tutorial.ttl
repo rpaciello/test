@@ -18,13 +18,12 @@
 
 
 
-<https://www.epos-eu.org/epos-dcat-ap/Seismology/Dataset/001> a dcat:Dataset ;
-        dct:identifier "https://www.epos-eu.org/epos-dcat-ap/Seismology/Dataset/001" ;
-        dct:title "Primary Seismic Waveform Data" ;
-        dct:description "Description of Dataset" ;
-        dct:created "2016-01-01T00:00:00Z"^^xsd:dateTime ;
-        dct:issued "2016-01-01T00:00:00Z"^^xsd:dateTime ;
-        dct:modified "2016-01-01T00:00:00Z"^^xsd:dateTime ;
+<ENVRI-FAIR/Dataset/test> a dcat:Dataset ;
+        dct:identifier "ENVRI-FAIR/Dataset/test" ;
+        dct:title "ENVRI-FAIR Dataset" ;
+        dct:description "Description of ENVRI-FAIR Dataset" ;
+        dct:created "2020-01-01T00:00:00Z"^^xsd:dateTime ;
+        dct:modified "2020-04-01T23:00:00Z"^^xsd:dateTime ;
         owl:versionInfo "1.0.0" ;
 
         # This property refers to the type of the Dataset.
@@ -35,10 +34,10 @@
         # The possible types are here: http://purl.org/cld/freq/
         dct:accrualPeriodicity "http://purl.org/cld/freq/continuous"^^xsd:anyURI ;
 
-        dcat:keyword "seismic waveform","continuous waveform" ,"mseed" ;
+        dcat:keyword "envri","fair" ;
 
         # This property links the Dataset to an available Distribution.
-        dcat:distribution <https://www.epos-eu.org/epos-dcat-ap/Seismology/Dataset/001/Distribution/001> ;
+        dcat:distribution <ENVRI-FAIR/Distribution/test/> ;
 
         # This property refers to a geographic region that is covered by the Dataset.
         dct:spatial [ a dct:Location ;
@@ -47,24 +46,23 @@
 
         # This property refers to a temporal period that the Dataset covers.
         dct:temporal [ a dct:PeriodOfTime ;
-                schema:startDate "1988-01-01T00:00:00Z"^^xsd:dateTime ;
+                schema:startDate "2020-01-01T00:00:00Z"^^xsd:dateTime ;
                 #schema:endDate "YYYY-MM-DDThh:mm:ssZ"^^xsd:dateTime ;
         ] ;
 
 .
 
-<https://www.epos-eu.org/epos-dcat-ap/Seismology/Dataset/001/Distribution/001> a dcat:Distribution ;
-        dct:identifier "https://www.epos-eu.org/epos-dcat-ap/Seismology/Dataset/001/Distribution/001" ;
-        dct:title "Title of Seismic Waveform distribution" ;
-	      dct:description "Description of Seismic Waveform distribution" ;
-	      dct:issued "2017-01-01"^^xsd:date ;
-        dct:modified "2017-01-01"^^xsd:date ;
+<ENVRI-FAIR/Distribution/test/> a dcat:Distribution ;
+        dct:identifier "ENVRI-FAIR/Distribution/test/" ;
+        dct:title "Title of ENVRI-FAIR Distribution" ;
+	dct:description "Description of ENVRI-FAIR Distribution" ;
+        dct:modified "2020-01-01"^^xsd:date ;
 
         # This property refers to the type of the Distribution. The possible types are
         # (http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE
         # OR
         # http://publications.europa.eu/resource/authority/distribution-type/DOWNLOADABLE_FILE)
-	      dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI ;
+	dct:type "http://publications.europa.eu/resource/authority/distribution-type/WEB_SERVICE"^^xsd:anyURI ;
 
         # If the type of Distribution is WEB SERVICE, this property refers to the Web Service that gives access to a Distribution of the Dataset. Otherwise, this property is optional.
 	      # dct:conformsTo <https://www.epos-eu.org/epos-dcat-ap/Seismology/WebService/001> ;
